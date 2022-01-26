@@ -1,52 +1,53 @@
-/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+/* Giving the body the specified background color*/
 body {
   background: #f1f1f1;
 }
 
-h1 {
-  font-size: 80px;
-}
 
-h3 {
-  font-size: 30px;
+/* Styling the header, giving it a height, a background color, and some top padding */
+.header {
+  height: 100px;
+  padding-top: 1px;
+  background: #f1f1f1;
 }
 
 /* Giving our navbar some padding and a background color */
 .navbar {
-  padding: 10px;
-  background: #5191fd;
+  display: block;
+  color: white;
+  background: #f1f1f1;
+  padding: 5px;
 }
 
-/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-.navbar li {
-  display: inline-block;
-  padding: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
+
+/* Getting rid of the default linked styles here */
+
+.topnav-right li a {
+  float: right;
   cursor: pointer;
-  background: #fff;
+  color: black;
+  text-decoration: black;
+  display: inline-block;
+  padding: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.topnav-left a {
+  color: white;
+  text-decoration: #fff;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+  background: #008B8B;
   border-radius: 3px;
 }
 
-/* Getting rid of the default link styles here */
-.navbar li a {
-  color: #000;
-  text-decoration: none;
-}
 
-/* Styling the header, giving it a height, a background color, and some top padding */
-.header {
-  height: 200px;
-  padding-top: 20px;
-  background: #cdcdcd;
-}
-
-/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-.header h1 {
-  padding: 60px;
-  margin: 0;
-  color: #000;
-  text-align: center;
+/*adding font size for the h3 elements */
+h3 {
+  font-size: 30px;
+  color: #008B8B;
 }
 
 /* Giving the .post element margin on 3 sides */
@@ -56,6 +57,12 @@ h3 {
   margin-left: 100px;
   padding: 10px;
 }
+
+
+
+
+
+
 /* Here we define some styles that will ONLY be applied at screen sizes below 600 pixels */
 @media (max-width: 600px) {
   /* .box-1 {
