@@ -4,10 +4,8 @@
 
 section {
   background-color: #DCDCDC;
-padding: 50px;
+  padding: 50px;
 }
-
-
 
 /* Giving the .grid element color*/
 .col-sm-4 {
@@ -15,32 +13,9 @@ padding: 50px;
   padding: 50px;
 }
 
-a.img.img-fluid:focus{
-  background-color: #7FFFD4;
-  margin:  #DC143C;
-}
-    /* unvisited link */
-a.img.img-fluid:link {
-        border: #7FFFD4;
+.img-fluid:hover {
+        border:3px solid #7FFFD4;
         margin:  #DC143C;
-    }
-
-    /* visited link */
-a.img.img-fluid:visited {
-        border: #7FFFD4;
-        margin:  #DC143C;
-    }
-
-    /* mouse over link */
-a.img.img-fluid:hover {
-        border: #7FFFD4;
-        margin:  #DC143C;
-    }
-
-    /* selected link */
-a.img.img-fluid:active {
-       border: #7FFFD4;
-       margin:  #DC143C;
     }
 
 .col-sm-7 {
