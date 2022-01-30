@@ -1,98 +1,101 @@
+/* Web-design-challenge*/
+ 
 /* Giving the body the specified background color*/
-body {
-  background: #f1f1f1;
+
+section {
+  background-color: #DCDCDC;
+padding: 50px;
 }
 
 
-/* Styling the header, giving it a height, a background color, and some top padding */
-.header {
-  height: 100px;
-  padding-top: 1px;
-  background: #f1f1f1;
+
+/* Giving the .grid element color*/
+.col-sm-4 {
+  background: #FFFFFF;
+  padding: 50px;
 }
 
-/* Giving our navbar some padding and a background color */
-.navbar {
-  display: block;
-  color: white;
-  background: #f1f1f1;
-  padding: 5px;
+a.img.img-fluid:focus{
+  background-color: #7FFFD4;
+  margin:  #DC143C;
 }
+    /* unvisited link */
+a.img.img-fluid:link {
+        border: #7FFFD4;
+        margin:  #DC143C;
+    }
 
+    /* visited link */
+a.img.img-fluid:visited {
+        border: #7FFFD4;
+        margin:  #DC143C;
+    }
 
-/* Getting rid of the default linked styles here */
+    /* mouse over link */
+a.img.img-fluid:hover {
+        border: #7FFFD4;
+        margin:  #DC143C;
+    }
 
-.topnav-right li a {
-  float: right;
-  cursor: pointer;
-  color: black;
-  text-decoration: black;
-  display: inline-block;
-  padding: 2px;
-  margin-right: 2px;
-  margin-left: 2px;
-}
-.topnav-left a {
-  color: white;
-  text-decoration: #fff;
-  display: inline-block;
+    /* selected link */
+a.img.img-fluid:active {
+       border: #7FFFD4;
+       margin:  #DC143C;
+    }
+
+.col-sm-7 {
+  background: #FFFFFF;
   padding: 10px;
-  margin-right: 5px;
-  margin-left: 10px;
-  background: #008B8B;
-  border-radius: 3px;
 }
+
+/* Giving navbar some padding and a background
+   color */
+.navbar-brand {
+  font: bold 16px/32px Georgia, serif;
+  overflow: hidden;
+  padding: 5px;
+  background: #008B8B; 
+ ;}
 
 
 /*adding font size for the h3 elements */
 h3 {
+  margin-top: 100px;
+  padding: 10px;
   font-size: 30px;
   color: #008B8B;
 }
 
-/* Giving the .post element margin on 3 sides */
-.post {
-  margin-top: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
+/*adding font size for the h2 elements */
+h2 {
+  font-size: 30px;
+  color: #008B8B;
   padding: 10px;
 }
 
-
-
-
-
-
-/* Here we define some styles that will ONLY be applied at screen sizes below 600 pixels */
-@media (max-width: 600px) {
-  /* .box-1 {
-    background: purple;
-  } */
-
-  /* .box-2 {
-  background: yellow;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: solid 2px black;
-  } */
-
-  /* .box-3 {
-    display: none;
-  } */
-
-  /* .box-4 {
-    transform: rotate(360deg);
-    transition: transform 0.5s ease-in;
-  } */
-
-  /* .box-5 {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid red;
-    background: none;
-    margin-left: 300px;
-  } */
+.navbar-nav .nav-item:hover .nav-link {
+    color: #008B8B;
+    font: bold 16px/32px Georgia, serif;
+    background: #cdcdcd; 
 }
+
+@media (max-width: 768px) {
+section {
+  background: none;
+  padding: none;
+}}
+
+@media (max-width: 768px) {
+  .container {
+    color: #008B8B;
+    background-color: #008B8B;
+    padding: 5px;
+}}
+
+@media (max-width: 768px) {
+  .navbar-brand  {
+  font: bold 16px/32px Georgia, serif;
+  overflow: hidden;
+  padding: 5px;
+  background: #008B8B;}}
+
