@@ -15,10 +15,21 @@ section {
 
 .img-fluid:hover {
         border:3px solid #7FFFD4;
-        margin:  #DC143C;
-    }
+}
+
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .col-sm-7 {
+  background: #FFFFFF;
+  padding: 10px;
+}
+
+.col-sm-12 {
   background: #FFFFFF;
   padding: 10px;
 }
