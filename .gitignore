@@ -8,11 +8,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-cities
-Fig1
-Fig2
-Fig3
-Fig4
 build/
 develop-eggs/
 dist/
