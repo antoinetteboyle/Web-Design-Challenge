@@ -25,6 +25,6 @@ We have created a Latitude visualization dashboard website using html, css, medi
 
 ![Data Page](./images/datalink.png)
 
-I have utilsed Bootstrap for the navbar header on every page, and a Bootstrap grid for responsiveness to the visualisations and data pages. I have used CSS media query for responsiveness in the background and navigation bar.
+Utilsed Bootstrap for the navbar header on every page, and a Bootstrap grid for responsiveness to the visualisations and data pages. I have used CSS media query for responsiveness in the background and navigation bar.
 
-I have checked that the website works at all widths/sizes. 
+The website works at all widths/sizes. 
